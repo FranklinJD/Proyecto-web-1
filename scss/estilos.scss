@@ -1,0 +1,50 @@
+//----------------------------
+//          Colors
+//----------------------------
+$principal: #ff6732;
+$texto: #2a2f3d;
+//-------------------------------------------------
+//   Sobreescribiendo Estilos Bootstrap
+//-------------------------------------------------
+.bg-primary {
+    background-color: $principal !important;
+}
+
+.text-primary {
+    color: $principal !important;
+}
+
+.btn-primary {
+    background-color: $principal !important;
+    border-color: darken($principal, 20%) !important;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+    background-color: darken($principal, 8%) !important;
+}
+
+.btn-primary:focus {
+    box-shadow: 0 0 0 0.2rem rgba($principal, .5) !important;
+}
+
+.btn-primary:active {
+    background-color: darken($principal, 15%) !important;
+    border-color: darken($principal, 30%) !important;
+}
+
+//----------------------------
+//    Estilos del Diseño
+//----------------------------
+html {
+    font-size: 13px;
+}
+
+body {
+    color: $texto;
+    font-family: 'Roboto';
+}
+
+.card:hover {
+    box-shadow: 0 0 10px #0c0d0c3b;
+}

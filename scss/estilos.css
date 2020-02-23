@@ -1,0 +1,32 @@
+.bg-primary {
+  background-color: #ff6732 !important; }
+
+.text-primary {
+  color: #ff6732 !important; }
+
+.btn-primary {
+  background-color: #ff6732 !important;
+  border-color: #cb3400 !important; }
+
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: #ff4909 !important; }
+
+.btn-primary:focus {
+  box-shadow: 0 0 0 0.2rem rgba(255, 103, 50, 0.5) !important; }
+
+.btn-primary:active {
+  background-color: #e53b00 !important;
+  border-color: #982700 !important; }
+
+html {
+  font-size: 13px; }
+
+body {
+  color: #2a2f3d;
+  font-family: 'Roboto'; }
+
+.card:hover {
+  box-shadow: 0 0 10px #0c0d0c3b; }
+
+/*# sourceMappingURL=estilos.css.map */
